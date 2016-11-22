@@ -6,9 +6,9 @@
 //  Copyright © 2016年 Facebook. All rights reserved.
 //
 
-#import "WKBaseViewController.h"
+#import "UIViewController.h"
 
-@interface guidePage : WKBaseViewController
+@interface guidePage : UIViewController
 
 
 
