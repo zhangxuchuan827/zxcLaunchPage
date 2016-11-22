@@ -6,7 +6,7 @@
 //  Copyright © 2016年 Facebook. All rights reserved.
 //
 
-#import "UIViewController.h"
+#import <UIKit/UIKit.h>
 
 @interface guidePage : UIViewController
 

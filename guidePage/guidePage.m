@@ -5,6 +5,11 @@
 //  Created by zhang on 16/10/25.
 //  Copyright © 2016年 Facebook. All rights reserved.
 //
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define SCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define Font(s)     [[UIDevice currentDevice]systemVersion].floatValue >= 9.0 ? [UIFont fontWithName:@"PingFangTC-Light" size:s] : [UIFont fontWithName:@"HelveticaNeue-Light" size:s]
+
 
 #import "guidePage.h"
 
