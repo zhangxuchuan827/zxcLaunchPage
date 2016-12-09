@@ -10,6 +10,7 @@
 
 @interface guidePage : UIViewController
 
+@property (nonatomic,strong) NSMutableArray<UIImage*> * imgArr;
 
 
 - (instancetype)initWithDismissBlock:(void(^)())endBlock;
